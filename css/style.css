@@ -6,6 +6,10 @@ Support (grey): #D9DCE3
 Background (white): #FFFFFF
 */
 
+*{
+  box-sizing: border-box;
+}
+
 body{
   background-color:#FFFFFF;
   font-family:'Quicksand', sans-serif;
@@ -15,23 +19,33 @@ body{
   color:#1C212C
 }
 
+header{
+  text-align: center;
+  padding: 10px 0;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D9DCE3;
+  position: fixed;
+  width:100%;
+}
+
+
 h1,h2,h3,h4{
   font-family:'Jost', sans-serif;
   line-height:1.4;
 }
 
 h1{
-  font-size:2.75em;
+  font-size:2.15em;
   font-weight:400;
 }
 
 h2{
-  font-size:2.25em;
+  font-size:1.80em;
   font-weight:400;
 }
 
 h3{
-  font-size:1.75em;
+  font-size:1.40em;
   font-weight:400;
 }
 
@@ -42,11 +56,15 @@ h4{
 
 p{
   font-family:'quicksand',sans-serif;
-  font-size:1.1em;
+  font-size:1em;
   font-weight:300;
   line-height:1.8;
 }
 
+#copyright{
+  font-size:0.6em;
+  font-weight:300;
+}
 
 img{
   width:100%;
@@ -125,4 +143,166 @@ a:active{
 
 .button.cv:active{
   opacity:0.8;
+}
+
+/*
+Layout Styling
+*/
+
+.container{
+  padding: 0 15px;
+}
+
+#work .row {
+border-bottom: 1px solid #D9DCE3;
+padding: 15px 0px 85px 0px;
+}
+
+#hero h1{
+  text-align: left;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.logo{
+  max-width: 250px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a{
+  padding: 0 12px;
+  font-weight: 400;
+  color: #AEBDE6;
+}
+
+nav > ul > li > a:visited{
+  padding: 0 12px;
+  font-weight: 400;
+  color: #AEBDE6;
+}
+
+nav > ul > li > a:hover,a:focus{
+  padding: 0 12px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #AEBDE6;
+}
+
+nav > ul > li > a:active{
+  padding: 0 12px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #AEBDE6;
+  border-bottom: 2px solid #AEBDE6;
+}
+
+#hero{
+  background-color: #FFFFFF;
+  padding: 20px 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+main{
+  padding-top:133px;
+}
+
+.logo{
+  padding-top:10px;
+}
+
+#work h2{
+  margin:10px 0;
+  padding:0;
+}
+
+#work h3{
+  margin:10px 0;
+  padding:0;
+}
+
+#work p{
+  margin:10px 0px 0px 0px;
+  padding:0;
+}
+
+#work .button{
+  float:right;
+  clear:both;
+}
+
+#contact h2{
+  margin:20px 0px 10px 0px;
+  padding:0;
+}
+
+#contact p{
+  margin:10px 0;
+  padding:0;
+}
+
+#email{
+  text-align: center;
+}
+
+#links  > ul {
+  list-style-type: none;
+  padding: 0;
+  margin:20px 60px;
+}
+
+#links  > ul > li {
+  display: inline-block;
+}
+
+#links > ul > li > a{
+  padding: 0 8px;
+}
+
+#links ul{
+  text-align: center;
+}
+
+#copyright{
+  text-align: center;
+}
+
+#downloadcv{
+  text-align: center;
+}
+
+#skills h3{
+  margin: 20px 0px 10px 0px;
+}
+
+#skills p{
+  margin: 10px 0px 20px 0px;
+}
+
+#cubo h1{
+  margin: 20px 0px 4px 0px;
+  text-align: center;
+}
+
+#cubo h4{
+  margin: 4px 0px 10px 0px;
+  text-align: center;
+}
+
+#glow h1{
+  margin: 20px 0px 4px 0px;
+  text-align: center;
+}
+
+#glow h4{
+  margin: 4px 0px 10px 0px;
+  text-align: center;
 }
