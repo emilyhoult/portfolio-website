@@ -20,7 +20,6 @@ body{
 }
 
 header{
-  text-align: center;
   padding: 10px 0;
   background-color: #FFFFFF;
   border-bottom: 1px solid #D9DCE3;
@@ -176,42 +175,61 @@ padding: 15px 0px 85px 0px;
 }
 
 .logo{
-  max-width: 250px;
+  max-width: 150px;
 }
 
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav > ul > li {
-  display: inline-block;
+  margin:0;
 }
 
 nav > ul > li > a{
-  padding: 0 12px;
+  padding: 0 2px;
   font-weight: 400;
   color: #AEBDE6;
 }
 
 nav > ul > li > a:visited{
-  padding: 0 12px;
+  padding: 0 2px;
   font-weight: 400;
   color: #AEBDE6;
 }
 
 nav > ul > li > a:hover,a:focus{
-  padding: 0 12px;
+  padding: 0 2px;
   font-weight: 500;
   text-decoration: none;
   color: #AEBDE6;
 }
 
 nav > ul > li > a:active{
-  padding: 0 12px;
+  padding: 0 2px;
   font-weight: 500;
   text-decoration: none;
   color: #AEBDE6;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  text-align: right;
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 #hero{
@@ -222,7 +240,7 @@ nav > ul > li > a:active{
 }
 
 main{
-  padding-top:133px;
+  padding-top:75px;
 }
 
 .logo{
@@ -318,12 +336,28 @@ main{
 }
 
 @media only screen and (min-width: 640px) {
+  .logo{
+    max-width: 250px;
+  }
   header{
     text-align: unset;
   }
   nav{
     width: auto;
     float: right;
+  }
+  nav > ul {
+  margin: 1em 0;
+  }
+  nav > ul > li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+  }
+  .navtoggle li:last-child {
+  display: none;
   }
   svg.logo{
     padding-top:14px;
@@ -362,6 +396,22 @@ main{
 }
 
 @media only screen and (min-width: 1024px) {
+  .logo{
+    max-width: 250px;
+  }
+  nav > ul {
+  margin: 1em 0;
+  }
+  nav > ul > li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+  }
+  .navtoggle li:last-child {
+  display: none;
+  }
   .col-lg-5{
     width:41.66%;
   }
