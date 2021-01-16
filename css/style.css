@@ -1,7 +1,7 @@
 /*
 Colour palette:
 Primary (black): #1C212C
-Accent (blue): #AEBDE6
+Accent (blue): #AEBDE6 #6F80C9
 Support (grey): #D9DCE3
 Background (white): #FFFFFF
 */
@@ -70,17 +70,17 @@ img{
 }
 
 a{
-  color:#AEBDE6;
+  color:#6F80C9;
   text-decoration: none;
 }
 
 a:visited{
-  color:#AEBDE6;
+  color:#6F80C9;
 }
 
 a:hover,
 a:focus{
-  color:#AEBDE6;
+  color:#6F80C9;
   text-decoration: underline;
 }
 
@@ -93,13 +93,13 @@ a:active{
   background-color:#FFFFFF;
   font-weight:400;
   padding:10px;
-  border-bottom:2px solid #AEBDE6;
+  border-bottom:2px solid #6F80C9;
   transition: 0.2s opacity;
 }
 
 .button:hover,
 .button:focus{
-  background-color:#AEBDE6;
+  background-color:#6F80C9;
   color:#FFFFFF;
   text-decoration:none;
 }
@@ -110,17 +110,17 @@ a:active{
 
 .button.contact{
   background-color:transparent;
-  color:#AEBDE6;
-  border:2px solid #AEBDE6;
+  color:#6F80C9;
+  border:2px solid #6F80C9;
   text-decoration:none;
   transition: 0.2s opacity;
 }
 
 .button.contact:hover,
 .button.contact:focus{
-  background-color:#AEBDE6;
+  background-color:#6F80C9;
   color:#FFFFFF;
-  border:2px solid #AEBDE6;
+  border:2px solid #6F80C9;
 }
 
 .button.contact:active{
@@ -129,16 +129,16 @@ a:active{
 
 .button.cv{
   background-color:transparent;
-  color:#AEBDE6;
-  border:2px solid #AEBDE6;
+  color:#6F80C9;
+  border:2px solid #6F80C9;
   text-decoration:none;
 }
 
 .button.cv:hover,
 .button.cv:focus{
-  background-color:#AEBDE6;
+  background-color:#6F80C9;
   color:#FFFFFF;
-  border:2px solid #AEBDE6;
+  border:2px solid #6F80C9;
 }
 
 .button.cv:active{
@@ -187,27 +187,27 @@ nav > ul {
 nav > ul > li > a{
   padding: 0 2px;
   font-weight: 400;
-  color: #AEBDE6;
+  color: #6F80C9;
 }
 
 nav > ul > li > a:visited{
   padding: 0 2px;
   font-weight: 400;
-  color: #AEBDE6;
+  color: #6F80C9;
 }
 
 nav > ul > li > a:hover,a:focus{
   padding: 0 2px;
   font-weight: 500;
   text-decoration: none;
-  color: #AEBDE6;
+  color: #6F80C9;
 }
 
 nav > ul > li > a:active{
   padding: 0 2px;
   font-weight: 500;
   text-decoration: none;
-  color: #AEBDE6;
+  color: #6F80C9;
 }
 
 .navtoggle li:not(:last-child) {
@@ -473,7 +473,7 @@ main{
 }
 
 @keyframes color-change {
-  0%{fill:#AEBDE6;}
+  0%{fill:#6F80C9;}
   50%{fill:#D9DCE3;}
   100%{fill:#FFFFFF;}
 }
