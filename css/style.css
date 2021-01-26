@@ -268,11 +268,13 @@ main {
 #contact h2 {
   margin: 20px 0px 10px 0px;
   padding: 0;
+  text-align: center;
 }
 
 #contact p {
   margin: 10px 0;
   padding: 0;
+  text-align: center;
 }
 
 #email {
